@@ -70,16 +70,16 @@ void inicializarDatosDePrueba()
 
     Proyecto proyectos[10] = {};
 
-    proyectos[0] = {1, "Sistema de Inventario", "Software", "Comercial Andina", 2024, 3500.0f, "Terminado", true};
-    proyectos[1] = {2, "Pagina Web Institucional", "Web", "Colegio Central", 2025, 1800.0f, "En progreso", true};
-    proyectos[2] = {3, "App de Reservas", "Movil", "Hotel Sol", 2025, 4200.0f, "Planificado", true};
-    proyectos[3] = {4, "Base de Datos Clientes", "Datos", "Tienda Norte", 2023, 2500.0f, "Terminado", true};
-    proyectos[4] = {5, "Dashboard de Ventas", "Analitica", "Distribuidora Sur", 2024, 3900.0f, "En progreso", true};
-    proyectos[5] = {6, "Sistema de Biblioteca", "Software", "Universidad Local", 2022, 3100.0f, "Terminado", true};
-    proyectos[6] = {7, "Control de Asistencia", "Software", "Instituto Tecnico", 2025, 2750.0f, "Planificado", true};
-    proyectos[7] = {8, "Catalogo Digital", "Web", "Artesanias Moya", 2024, 1600.0f, "Terminado", true};
-    proyectos[8] = {9, "Registro de Pacientes", "Salud", "Clinica Vida", 2023, 5200.0f, "En progreso", true};
-    proyectos[9] = {10, "Reporte Academico", "Educacion", "SIS-112", 2026, 1200.0f, "Terminado", true};
+    proyectos[0] = {1, "Spot mundial", "Propaganda", "Comercial nike", 2026, 3500.0f, "Terminado", true};
+    proyectos[1] = {2, "Marketing digital", "Tik tok", "Universidad LOyola", 2025, 1800.0f, "En progreso", true};
+    proyectos[2] = {3, "Gigantografias", "Fisico", "Hotel Sol", 2025, 4200.0f, "Planificado", true};
+    proyectos[3] = {4, "Videos redes", "redes", "Tienda Norte", 2023, 2500.0f, "Terminado", true};
+    proyectos[4] = {5, "Comercial nueva sucural", "Publicidad", "Distribuidora Sur", 2026, 3900.0f, "En progreso", true};
+    proyectos[5] = {6, "Eeccion estudiantil", "Publicidad", "UMSA", 2022, 3100.0f, "Terminado", true};
+    proyectos[6] = {7, "Spot master chef", "Propaganda", "Unitel", 2026, 2750.0f, "Planificado", true};
+    proyectos[7] = {8, "Video epico", "Redes", "Artesanias Moya", 2024, 1600.0f, "Terminado", true};
+    proyectos[8] = {9, "Banners", "Publicidad", "Clinica Vida", 2026, 5200.0f, "En progreso", true};
+    proyectos[9] = {10, "Interacciones con la cuenta", "Redes", "Eulis", 2026, 1200.0f, "Terminado", true};
 
     if (!guardarProyectos(proyectos, 10))
         cout << "No se pudo crear el archivo inicial de datos.\n";
